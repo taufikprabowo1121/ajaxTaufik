@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c7221d171bb45008610b3f4fb372496" Name="Diagram1">
+        <EntityTypeShape EntityType="ContosoUniversity89Model.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.Course" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.Department" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.Enrollment" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.Instructor" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.OfficeAssignment" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoUniversity89Model.Person" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="ContosoUniversity89Model.FK_dbo_Course_dbo_Department_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="ContosoUniversity89Model.FK_dbo_Enrollment_dbo_Course_CourseID" ManuallyRouted="false" />
+        <AssociationConnector Association="ContosoUniversity89Model.FK_dbo_Department_dbo_Instructor_InstructorID" ManuallyRouted="false" />
+        <AssociationConnector Association="ContosoUniversity89Model.FK_dbo_Enrollment_dbo_Student_StudentID" ManuallyRouted="false" />
+        <AssociationConnector Association="ContosoUniversity89Model.FK_dbo_OfficeAssignment_dbo_Instructor_InstructorID" ManuallyRouted="false" />
+        <AssociationConnector Association="ContosoUniversity89Model.CourseInstructor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
